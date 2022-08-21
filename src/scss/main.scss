@@ -1,1 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
 
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+$fs: 1.5rem;
+$fb: 6.25rem;
+
+$clr-b:#788;
+$bg-clr:#766;
+$b-lin-grad:  linear-gradient(-125deg, #456 20%, #654 80%);
+
+
+body {
+	height: 100vh;
+}
