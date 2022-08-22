@@ -37,8 +37,18 @@ a {
 .showcase nav li {
   padding: 0.75rem;
 }
+.showcase nav a:hover, .showcase nav a:focus {
+  color: #f80;
+  transition: all 0.25s ease-in;
+}
 .showcase a {
   color: #fef;
+}
+.showcase-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {

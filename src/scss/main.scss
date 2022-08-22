@@ -45,9 +45,22 @@ a { text-decoration: none;}
 			padding: $fs/2;
 		}
 
+		a:hover, a:focus {
+			color: #f80;
+			transition: all .25s ease-in;
+		}
+
 	}
 
 	a { color: $clr-lgt;}
+
+	&-content {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
 }
 
 .container {
