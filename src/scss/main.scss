@@ -19,16 +19,35 @@ body {
 	font: $fs $ff;
 	background: $bg-clr-b;
 	height: 100vh;
+	line-height: 1.6;
 }
 
 img {
 	width: 100%;
 }
 
+a { text-decoration: none;}
 .showcase {
 	background: $bg-clr-prim;
 	color: $clr-lgt;
 	height: $fb * 6.1;
+
+	  nav {
+	    display:flex;
+			align-items: center;
+			justify-content: space-between;
+
+			  ul {
+					display: flex;
+					list-style-type: none;
+				}
+		li {
+			padding: $fs/2;
+		}
+
+	}
+
+	a { color: $clr-lgt;}
 }
 
 .container {

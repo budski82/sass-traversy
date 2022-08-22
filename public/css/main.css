@@ -9,16 +9,36 @@ body {
   font: 1.5rem "Raleway", sans-serif;
   background: #788;
   height: 100vh;
+  line-height: 1.6;
 }
 
 img {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .showcase {
   background: #348;
   color: #fef;
   height: 38.125rem;
+}
+.showcase nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.showcase nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.showcase nav li {
+  padding: 0.75rem;
+}
+.showcase a {
+  color: #fef;
 }
 
 .container {
