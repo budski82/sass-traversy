@@ -22,11 +22,8 @@ body {
 	line-height: 1.6;
 }
 
-img {
-	width: 100%;
-}
-
 a { text-decoration: none;}
+
 .showcase {
 	background: $bg-clr-prim;
 	color: $clr-lgt;
@@ -46,8 +43,12 @@ a { text-decoration: none;}
 		}
 
 		a:hover, a:focus {
+			background: $bg-clr-b;
 			color: #f80;
-			transition: all .25s ease-in;
+			border: .01rem solid purple;
+			border-radius: $fs;
+			 padding: $fs/12 $fs/2;
+			transition: all .175s ease-in;
 		}
 
 	}
@@ -59,6 +60,12 @@ a { text-decoration: none;}
 		display: flex;
 		align-items: center;
 		justify-content: center;
+
+		img { width: $fb *5; }
+
+		h1 { 
+			font-size: $fb/2;
+		line-height: 1.2;}
 
 	}
 }
