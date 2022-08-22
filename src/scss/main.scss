@@ -2,16 +2,38 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box;}
 
+$ff: 'Raleway',sans-serif;
 $fs: 1.5rem;
 $fb: 6.25rem;
 
-$clr-b:#788;
 $clr-d: #222;
 $clr-lgt: #fef;
-$bg-clr:#766;
+
+$bg-clr-b:#788;
+$bg-clr-prim: #348;
+$bg-clr-sec:#766;
 $bg-lin-grad:  linear-gradient(-125deg, #456 20%, #654 80%);
 
 
 body {
+	font: $fs $ff;
+	background: $bg-clr-b;
 	height: 100vh;
+}
+
+img {
+	width: 100%;
+}
+
+.showcase {
+	background: $bg-clr-prim;
+	color: $clr-lgt;
+	height: $fb * 6.1;
+}
+
+.container {
+	max-width: $fb * 11; 
+	padding: 0 $fs * 15;
+	margin: 0 auto;
+	overflow: auto;
 }

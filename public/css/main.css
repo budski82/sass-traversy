@@ -6,7 +6,26 @@
 }
 
 body {
+  font: 1.5rem "Raleway", sans-serif;
+  background: #788;
   height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+.showcase {
+  background: #348;
+  color: #fef;
+  height: 38.125rem;
+}
+
+.container {
+  max-width: 68.75rem;
+  padding: 0 22.5rem;
+  margin: 0 auto;
+  overflow: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
