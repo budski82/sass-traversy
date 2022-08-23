@@ -7,9 +7,15 @@
 
 body {
   font: 1.5rem "Raleway", sans-serif;
-  background: #788;
+  background: #766;
   height: 100vh;
   line-height: 1.6;
+}
+
+.showcase {
+  background: #348;
+  color: #fef;
+  height: 37.5rem;
 }
 
 /* a { text-decoration: none;}

@@ -17,12 +17,16 @@ $bg-lin-grad:  linear-gradient(-125deg, #456 20%, #654 80%);
 
 body {
 	font: $fs $ff;
-	background: $bg-clr-b;
+	background: $bg-clr-sec;
 	height: 100vh;
 	line-height: 1.6;
 }
 
-
+.showcase {
+  background: $bg-clr-prim;
+	color: $clr-lgt;
+	height: $fb * 6;
+}
 
 
 
