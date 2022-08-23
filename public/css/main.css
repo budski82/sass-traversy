@@ -6,16 +6,57 @@
 }
 
 body {
-  font: 1.5rem "Raleway", sans-serif;
+  font: 1rem "Raleway", sans-serif;
   background: #766;
   height: 100vh;
   line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
 }
 
 .showcase {
   background: #348;
   color: #fef;
   height: 37.5rem;
+}
+.showcase nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.showcase nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.showcase nav li {
+  padding: 1rem;
+}
+.showcase nav a:hover {
+  background-color: #ece;
+  color: #f80;
+  border: 0.01rem solid #ffb866;
+  border-radius: 1.5625rem;
+  padding: 0.25rem 0.5rem;
+  font-size: -0.4rem;
+}
+.showcase a {
+  color: #fef;
+}
+.showcase-content {
+  height: 100%;
+}
+
+.container {
+  max-width: 68.75rem;
+  padding: 0 1.8rem;
+  margin: 0 auto;
+  overflow: auto;
 }
 
 /* a { text-decoration: none;}
