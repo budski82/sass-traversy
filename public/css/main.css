@@ -50,6 +50,13 @@ img {
 }
 .showcase-content {
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showcase-content img {
+  margin-top: 6rem;
+  width: 50%;
 }
 
 .container {
