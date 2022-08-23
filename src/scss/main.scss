@@ -1,21 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
-
-* { margin: 0; padding: 0; box-sizing: border-box;}
-
-$ff: 'Raleway',sans-serif;
-$fs: 1rem;
-$fb: 6.25rem;
-
-$clr-d: #222;
-$clr-lgt: #fef;
-$clr-a: #f80;
-
-$bg-clr-b:#788;
-$bg-clr-prim: #348;
-$bg-clr-sec:#766;
-$bg-clr-acct: #ece;
-$bg-lin-grad:  linear-gradient(-125deg, #456 20%, #654 80%);
-
+@import 'config';
+@import 'utilities';
+@import 'buttons';
 
 body {
 	font: $fs $ff;
@@ -69,16 +54,17 @@ img { width: 100%;}
 		img { 
 			margin-top: $fs * 6;
 			width:50%;}
+
+			h1 {
+				font-size: $fs *3;
+				line-height: 1.2;
+			}
+			p { margin: $fs*2 0;}
 	}
 
 }
 
-.container {
-	max-width: $fb * 11;
-	padding: 0 $fs * 1.8;
-	margin: 0 auto;
-	overflow: auto;
-}
+
 
 
 

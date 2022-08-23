@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 68.75rem;
+  padding: 0 1.8rem;
+  margin: 0 auto;
+  overflow: auto;
+}
+
 body {
   font: 1rem "Raleway", sans-serif;
   background: #766;
@@ -58,12 +65,12 @@ img {
   margin-top: 6rem;
   width: 50%;
 }
-
-.container {
-  max-width: 68.75rem;
-  padding: 0 1.8rem;
-  margin: 0 auto;
-  overflow: auto;
+.showcase-content h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.showcase-content p {
+  margin: 2rem 0;
 }
 
 /* a { text-decoration: none;}
