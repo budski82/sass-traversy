@@ -12,6 +12,25 @@
   overflow: auto;
 }
 
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 0.3333333333rem;
+  padding: 0.5rem 1.2rem;
+  margin: 0.3333333333rem;
+}
+.btn-secondary:hover, .btn-primary:hover {
+  transform: scale(0.75);
+  background: #788;
+}
+
+.btn-primary {
+  background: #db93db;
+}
+
+.btn-secondary {
+  background: #db93db;
+}
+
 body {
   font: 1rem "Raleway", sans-serif;
   background: #766;
